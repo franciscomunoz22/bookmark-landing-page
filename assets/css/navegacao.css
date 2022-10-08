@@ -1,0 +1,25 @@
+.nav-mobile {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2.5rem 2rem;
+}
+
+.hamburger {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-ul {
+    align-items: center;
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: black;
+}
+
+.nav-ul.show {
+    display: flex;
+}
