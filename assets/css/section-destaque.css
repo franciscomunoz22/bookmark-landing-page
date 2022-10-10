@@ -1,0 +1,16 @@
+.destaque {
+    text-align: center;
+}
+ 
+.destaque-imagem {
+    margin-top: 2rem;
+    width: 90vw;
+    
+}
+
+.destaque-imagem-fundo {
+    width: 50%;
+    height: 13rem;
+    right: 0;
+    position: absolute;
+}
