@@ -2,6 +2,18 @@
 @import url(section-destaque.css);
 
 :root {
+    --branco: #ffffff;
+    --quase-branco: #faf5f5;
     --azul-suave: #5368df;
     --vermelho-suave: #fa5757;
+    --cinza-suave: #d5e1ef;
+    --azul-acinzentado: hsl(229, 8%, 60%);
+    --azul-muito-escuro: hsl(229, 31%, 21%);
+
+    --fonte-principal: 'Rubik', sans-serif;
+}
+
+body {
+    color: var(--azul-muito-escuro);
+    font-family: var(--fonte-principal);
 }
