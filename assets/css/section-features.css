@@ -15,3 +15,45 @@
     line-height: 1.7rem;
     margin: 0 1.5rem 3rem 1.5rem;
 }
+
+.features-item {
+    border-bottom: solid 1.5px var(--cinza-suave);
+    color: var(--azul-acinzentado);
+    display: flex;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 400;
+    justify-content: center;
+    margin: 0 2rem;
+    padding: 1.5rem 0;
+    position: relative;  
+}
+
+.features-item:nth-child(1) {
+    border-top: solid 1.5px var(--cinza-suave);
+}
+
+.features-item::after {
+    background-color: var(--vermelho-suave);
+    bottom: 0;
+    content: "";
+    justify-self: center;
+    position: absolute;
+    height: 5px;
+    transition: 0.3s;
+    width: 0;
+}
+
+.features-item:hover::after {
+    width: 180px;
+}
+
+.features-book {
+    display: none;
+}
+
+.features-imagem {
+    margin-bottom: 5rem;
+    margin-top: 4.5rem;
+    width: 83vw;
+}
