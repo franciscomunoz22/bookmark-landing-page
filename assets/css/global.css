@@ -1,5 +1,6 @@
 @import url(navegacao.css);
 @import url(section-destaque.css);
+@import url(section-features.css);
 
 :root {
     --branco: #ffffff;

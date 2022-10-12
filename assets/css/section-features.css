@@ -1,0 +1,17 @@
+.features {
+    margin-bottom: 4rem;
+    margin-top: 10rem;
+    text-align: center;
+}
+
+.features-titulo {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 1.0rem;
+}
+
+.features-decricao {
+    color: var(--azul-acinzentado);
+    line-height: 1.7rem;
+    margin: 0 1.5rem 3rem 1.5rem;
+}
