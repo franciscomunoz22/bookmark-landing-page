@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BOOKMARK</title>
+    <script src="https://keycdn.layerjs.org/libs/layerjs/layerjs-0.6.4.min.js"></script>
+    <link href="https://keycdn.layerjs.org/libs/layerjs/layerjs-0.6.4.css" type="text/css" rel="stylesheet" /> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
@@ -50,15 +52,35 @@
             <p class="features-decricao">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
             <div>
                 <ul class="features-lista">
-                    <li class="features-item">Simple Bookmarking</li>
-                    <li class="features-item">Speedy Searching</li>
-                    <li class="features-item">Easy Sharing</li>
+                    <li>
+                        <a class="features-item" href="#frame1">Simple Bookmarking</a>
+                    </li>
+                    <li>
+                        <a class="features-item" href="#frame2">Speedy Searching</a>
+                    </li>
+                    <li>
+                        <a class="features-item" href="#frame3">Easy Sharing</a>
+                    </li>
+                    <div lj-type="stage">
+                        <div lj-type="layer">
+                            <div lj-type="frame" lj-transition="zoomin" id="frame1">
+                                <img class="features-imagem" src="assets/img/illustration-features-tab-1.svg" alt="">
+                                <h2 class="features-titulo">Bookmark in one click</h2>
+                                <p class="features-decricao">Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
+                            </div>
+                            <div lj-type="frame" lj-transition="zoomin" id="frame2">
+                                <img class="features-imagem" src="assets/img/illustration-features-tab-2.svg" alt="">
+                                <h2 class="features-titulo">Intelligent search</h2>
+                                <p class="features-decricao">Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.</p>
+                            </div>
+                            <div lj-type="frame" lj-transition="zoomin" id="frame3">
+                                <img class="features-imagem" src="assets/img/illustration-features-tab-3.svg" alt="">
+                                <h2 class="features-titulo">Share your bookmarks</h2>
+                                <p class="features-decricao">Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.</p>
+                            </div>
+                        </div>
+                    </div>
                 </ul>
-            </div>
-            <div class="features-book">
-                <img class="features-imagem" src="assets/img/illustration-features-tab-1.svg" alt="">
-                <h2 class="features-titulo">Bookmark in one click</h2>
-                <p class="features-decricao">Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
             </div>
         </section>
     </main>

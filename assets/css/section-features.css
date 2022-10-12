@@ -16,6 +16,11 @@
     margin: 0 1.5rem 3rem 1.5rem;
 }
 
+.features-lista:nth-child(1) {
+    border-top: solid 1.5px var(--cinza-suave);
+    margin: 0 2rem;
+}
+
 .features-item {
     border-bottom: solid 1.5px var(--cinza-suave);
     color: var(--azul-acinzentado);
@@ -24,13 +29,9 @@
     font-size: 18px;
     font-weight: 400;
     justify-content: center;
-    margin: 0 2rem;
     padding: 1.5rem 0;
     position: relative;  
-}
-
-.features-item:nth-child(1) {
-    border-top: solid 1.5px var(--cinza-suave);
+    text-decoration: none;
 }
 
 .features-item::after {
@@ -48,8 +49,11 @@
     width: 180px;
 }
 
-.features-book {
-    display: none;
+[lj-type="stage"] {
+    margin: auto;
+    max-width: 800px;
+    height: 170vw;
+    width: 100%;  
 }
 
 .features-imagem {
