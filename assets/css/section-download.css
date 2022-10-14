@@ -1,0 +1,55 @@
+.download {
+    text-align: center;
+}
+
+.download-titulo {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 1.0rem;
+}
+
+.download-descricao {
+    color: var(--azul-acinzentado);
+    line-height: 1.7rem;
+    margin: 0 1.5rem 3rem 1.5rem;
+}
+
+.download-card {
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px 2px rgba(94, 92, 92, 0.116);
+    margin: 3rem;
+    padding: 3rem 0 .1rem 0;
+}
+
+.card-titulo {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 2rem 0 .5rem 0;
+}
+
+.card-descricao {
+    color: var(--azul-acinzentado);
+    font-size: 14px;
+    line-height: 1.7rem;
+    margin-bottom: 1.0rem;
+}
+
+.card-imagem {
+    width: 100%;
+}
+
+.card-link {
+    background-color: var(--azul-suave);
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(94, 92, 92, 0.116);
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 1.5rem;
+    padding: 1rem;
+    text-decoration: none;
+    color: var(--branco);
+}
+
+
+    

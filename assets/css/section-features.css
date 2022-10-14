@@ -1,5 +1,5 @@
 .features {
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
     margin-top: 10rem;
     text-align: center;
 }
@@ -10,7 +10,7 @@
     margin-bottom: 1.0rem;
 }
 
-.features-decricao {
+.features-descricao {
     color: var(--azul-acinzentado);
     line-height: 1.7rem;
     margin: 0 1.5rem 3rem 1.5rem;
@@ -51,7 +51,6 @@
 
 [lj-type="stage"] {
     margin: auto;
-    max-width: 800px;
     height: 170vw;
     width: 100%;  
 }

@@ -1,6 +1,7 @@
 @import url(navegacao.css);
 @import url(section-destaque.css);
 @import url(section-features.css);
+@import url(section-download.css);
 
 :root {
     --branco: #ffffff;
@@ -8,8 +9,8 @@
     --azul-suave: #5368df;
     --vermelho-suave: #fa5757;
     --cinza-suave: #d5e1ef;
-    --azul-acinzentado: hsl(229, 8%, 60%);
-    --azul-muito-escuro: hsl(229, 31%, 21%);
+    --azul-acinzentado: #9194a1;
+    --azul-muito-escuro: #252b46;
 
     --fonte-principal: 'Rubik', sans-serif;
 }

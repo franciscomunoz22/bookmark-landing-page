@@ -15,23 +15,18 @@
 </head>
 <body>
     <header>
-        <nav class="nav-mobile">
-            <div>
-                <a href="#">
-                    <img src="assets/img/logo-bookmark.svg" alt="Logo da empresa bookmark escrito em preto">
-                </a>
-            </div>
-            <button class="hamburger" id="hamburger">
-                <img src="assets/img/icon-hamburger.svg">
+        <div class="container">
+            <a href="#"><img src="assets/img/logo-bookmark.svg" alt="Logo da empresa bookmark escrito em preto"></a>
+            <button class="hamburger">
+                <div class="bar"></div>
             </button>
-            <ul class="nav-ul" id="nav-ul">
-                <li><a href="#features">Features</a></li>
-                <li><a href="#">Pricing</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+        </div>
+        <nav class="mobile-nav">
+            <a href="#">Features</a>
+            <a href="#">Pricing</a>
+            <a href="#">Contact</a>
         </nav>
     </header>
-    <script src="assets/js/menu-hamburger.js"></script>
     <main>
         <!-- Início da seção de Destaque-->
         <section class="destaque">
@@ -42,14 +37,14 @@
             <H1 class="destaque-titulo">A simple bookmark manager</H1>
             <p class="destaque-descricao">A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
             <div>
-                <a class="destaque-link" href="#">Get it on Chrome</a>
-                <a class="destaque-link" href="#">Get it on Firefox</a>
+                <a class="destaque-link" href="https://chromeenterprise.google/intl/pt_br/browser/download/?utm_source=adwords&utm_medium=cpc&utm_campaign=2022-H2-chromebrowser-paidmed-paiddisplay-other-chromebrowserent&utm_term=downloadnow-chrome-browser-download&utm_content=GCEJ&brand=GCEJ&gclid=Cj0KCQjwy5maBhDdARIsAMxrkw028vz3ZQIHbXba6J9Bl0puVU5Kcz64xeApNHib1H3LbaWEfO4xl5MaAkJFEALw_wcB&gclsrc=aw.ds#windows-tab" target="_blank" rel="external">Get it on Chrome</a>
+                <a class="destaque-link" href="https://www.mozilla.org/pt-BR/firefox/new/" target="_blank" rel="external">Get it on Firefox</a>
             </div>
         </section>
         <!-- Início da seção Features-->
         <section class="features" id="features">
             <h2 class="features-titulo">Features</h2>
-            <p class="features-decricao">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
+            <p class="features-descricao">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
             <div>
                 <ul class="features-lista">
                     <li>
@@ -66,17 +61,17 @@
                             <div lj-type="frame" lj-transition="zoomin" id="frame1">
                                 <img class="features-imagem" src="assets/img/illustration-features-tab-1.svg" alt="Ilustração">
                                 <h2 class="features-titulo">Bookmark in one click</h2>
-                                <p class="features-decricao">Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
+                                <p class="features-descricao">Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
                             </div>
                             <div lj-type="frame" lj-transition="zoomin" id="frame2">
                                 <img class="features-imagem" src="assets/img/illustration-features-tab-2.svg" alt="Ilustração">
                                 <h2 class="features-titulo">Intelligent search</h2>
-                                <p class="features-decricao">Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.</p>
+                                <p class="features-descricao">Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.</p>
                             </div>
                             <div lj-type="frame" lj-transition="zoomin" id="frame3">
                                 <img class="features-imagem" src="assets/img/illustration-features-tab-3.svg" alt="Ilustração">
                                 <h2 class="features-titulo">Share your bookmarks</h2>
-                                <p class="features-decricao">Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.</p>
+                                <p class="features-descricao">Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.</p>
                             </div>
                         </div>
                     </div>
@@ -84,18 +79,32 @@
             </div>
         </section>
         <!-- Início da seção Download-->
-        <section>
+        <section class="download">
             <h2 class="download-titulo">Download the extension</h2>
-            <p class="download-decricao">We've got more browsers in the pipeline. Please do let us know if you've 
-                got a favourite you'd like us to prioritize.</p>
-            <div>
-                <img src="assets/img/logo-chrome.svg" alt="">
-                <h3>Add to Chrome</h3>
-                <p>Minimum version 62</p>
-                <img src="assets/img/bg-dots.svg">
-                <a href="#">Add & Install Extension</a>
+            <p class="download-descricao">We've got more browsers in the pipeline. Please do let us know if you've got a favourite you'd like us to prioritize.</p>
+            <div class="download-card">
+                <img src="assets/img/logo-chrome.svg" alt="Logo do navegador google Chrome">
+                <h3 class="card-titulo">Add to Chrome</h3>
+                <p class="card-descricao">Minimum version 62</p>
+                <img class="card-imagem" src="assets/img/bg-dots.svg">
+                <a class="card-link" href="#">Add & Install Extension</a>
+            </div>
+            <div class="download-card">
+                <img src="assets/img/logo-firefox.svg" alt="Logo do navegador Firefox">
+                <h3 class="card-titulo">Add to Firefox</h3>
+                <p class="card-descricao">Minimum version 55</p>
+                <img class="card-imagem" src="assets/img/bg-dots.svg">
+                <a class="card-link" href="#">Add & Install Extension</a>
+            </div>
+            <div class="download-card">
+                <img src="assets/img/logo-opera.svg" alt="Logo do navegador Opere">
+                <h3 class="card-titulo">Add to Opera</h3>
+                <p class="card-descricao">Minimum version 46</p>
+                <img class="card-imagem" src="assets/img/bg-dots.svg">
+                <a class="card-link" href="#">Add & Install Extension</a>
             </div>
         </section>
     </main>
+    <script src="assets/js/menu-hamburger.js"></script>
 </body>
 </html>
