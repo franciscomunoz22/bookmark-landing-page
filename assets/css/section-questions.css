@@ -1,0 +1,20 @@
+.questions {
+   
+}
+
+.questions-item-titulo::after {
+    content: url(../img/icon-arrow.svg);
+    transition: .3s ease;
+}
+
+.questions-checkbox {
+    display: none;
+}
+
+.questions-item-descricao {
+    display: none;
+}
+
+.questions-checkbox:checked + .questions-item .questions-item-descricao {
+    display: block;
+}

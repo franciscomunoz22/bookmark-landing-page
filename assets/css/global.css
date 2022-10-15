@@ -2,6 +2,7 @@
 @import url(section-destaque.css);
 @import url(section-features.css);
 @import url(section-download.css);
+@import url(section-questions.css);
 
 :root {
     --branco: #ffffff;
