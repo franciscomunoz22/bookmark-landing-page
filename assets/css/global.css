@@ -4,6 +4,7 @@
 @import url(section-download.css);
 @import url(section-questions.css);
 @import url(section-formulario.css);
+@import url(rodape.css);
 
 :root {
     --branco: #ffffff;
@@ -12,7 +13,9 @@
     --vermelho-suave: #fa5757;
     --cinza-suave: #d5e1ef;
     --azul-acinzentado: #9194a1;
+    --azul-quase-transparente: #252b4648;
     --azul-muito-escuro: #252b46;
+
 
     --fonte-principal: 'Rubik', sans-serif;
 }
