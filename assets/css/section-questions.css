@@ -34,8 +34,8 @@
 
 .questions-item-titulo {
     cursor: pointer;
-    font-weight: 400;
     font-size: 15px;
+    font-weight: 400;
 }
 
 .questions-item-titulo::after {
@@ -65,6 +65,6 @@
     font-weight: 500;
     margin: 3rem 8rem;
     padding: 1rem;
+    text-align: center;
     text-decoration: none;
-    text-align: center; 
 }

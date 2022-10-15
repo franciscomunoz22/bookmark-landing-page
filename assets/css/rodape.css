@@ -1,12 +1,12 @@
 .rodape {
-    text-align: center;
     background-color: var(--azul-muito-escuro);
     padding: 3rem 0;
+    text-align: center; 
 }
 
 .rodape-logo {
-    width: 42%;
     margin-bottom: 2rem;
+    width: 42%;
 }
 
 .rodape-nav {
@@ -15,10 +15,10 @@
 }
 
 .rodape-link {
-    text-decoration: none;
-    text-transform: uppercase;
     color: var(--branco);
     letter-spacing: .15rem;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 .rodape-redes {

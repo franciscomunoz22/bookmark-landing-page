@@ -17,15 +17,15 @@
 }
 
 .features-lista:nth-child(1) {
-    border-top: solid 1.5px var(--cinza-suave);
+    border-top: 1.5px solid var(--cinza-suave);
     margin: 0 2rem;
 }
 
 .features-item {
-    border-bottom: solid 1.5px var(--cinza-suave);
+    border-bottom: 1.5px solid var(--cinza-suave);
     color: var(--azul-acinzentado);
-    display: flex;
     cursor: pointer;
+    display: flex;
     font-size: 18px;
     font-weight: 400;
     justify-content: center;
@@ -38,9 +38,9 @@
     background-color: var(--vermelho-suave);
     bottom: 0;
     content: "";
+    height: 5px;
     justify-self: center;
     position: absolute;
-    height: 5px;
     transition: 0.3s;
     width: 0;
 }
@@ -50,8 +50,8 @@
 }
 
 [lj-type="stage"] {
-    margin: auto;
     height: 170vw;
+    margin: auto;
     width: 100%;  
 }
 

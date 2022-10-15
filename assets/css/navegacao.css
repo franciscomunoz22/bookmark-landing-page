@@ -6,7 +6,6 @@
 }
 
 .hamburger {
-    appearance: none;
     background: none;
     border: none;
     cursor: pointer;
@@ -18,12 +17,11 @@
 
 .hamburger .bar, .hamburger::after, .hamburger::before {
     content: '';
-    background-color: #000;
+    background-color: var(--azul-muito-escuro);
     display: block;
     height: 3px;
-    margin: 6px 0px;
+    margin: 6px 0;
     transition: 0.4s;
-    width: 100%;
 }
 
 .hamburger.is-active::before {
@@ -39,15 +37,15 @@
 }
 
 .mobile-nav {
-    position:fixed;
-    top:5rem;
-    left:100%;
-    width:100%;
-    min-height:100vh;
-    display:block;
-    background-color:#ffffffd3;
-    transition:0.4s;
+    background-color: var(--branco-quase-transparente);
+    display: block;
+    left: 100%;
     margin-top: 2rem;
+    min-height: 100vh;
+    position: fixed;
+    transition: 0.4s;
+    top: 5rem;
+    width: 100%; 
 }
 
 .mobile-nav.is-active {
@@ -55,37 +53,32 @@
 }
 
 .mobile-link {
-    color: var(--azul-muito-escuro);
-    display:block;
-    margin:0 auto;
-    text-align:center;
-    text-decoration:none;
-    text-transform: uppercase;
     border-bottom: 1px solid var(--azul-quase-transparente);
     padding: 1.5rem 0;
+    text-decoration: none;
     width: 85%;
-    font-size: 18px;
-    font-weight: 500;
-    letter-spacing: .15rem;
 }
 
 .mobile-nav a:nth-child(1) {
     border-top: 1px solid var(--azul-quase-transparente);
 }
 
-.mobile-login {
-    margin:0 auto;
-    background: none;
-    border: 2px solid var(--azul-muito-escuro);
-    padding: .8rem 7.8rem;
-    margin-top: 1.5rem;
-    text-align: center;
-    display: block;
+.mobile-link, .mobile-login {
     color: var(--azul-muito-escuro);
-    font-family: var(--fonte-principal);
+    display: block;
     font-size: 18px;
     font-weight: 500;
     letter-spacing: .15rem;
+    margin: 0 auto;
+    text-align: center;
     text-transform: uppercase;
+}
+
+.mobile-login {
+    background: none;
+    border: 2px solid var(--azul-muito-escuro);
     border-radius: 5px;
+    font-family: var(--fonte-principal);
+    margin-top: 1.5rem;
+    padding: .8rem 7.8rem;  
 }

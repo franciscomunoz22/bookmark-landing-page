@@ -42,14 +42,11 @@
     background-color: var(--azul-suave);
     border-radius: 5px;
     box-shadow: 0px 4px 4px rgba(94, 92, 92, 0.116);
+    color: var(--branco);
     display: block;
     font-size: 14px;
     font-weight: 500;
     margin: 1.5rem;
     padding: 1rem;
     text-decoration: none;
-    color: var(--branco);
 }
-
-
-    
