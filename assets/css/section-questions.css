@@ -33,6 +33,7 @@
 }
 
 .questions-item-titulo {
+    cursor: pointer;
     font-weight: 400;
     font-size: 15px;
 }
@@ -41,6 +42,10 @@
     content: url(../img/icon-arrow.svg);
     float: right;
     transition: .3s ease;
+}
+
+.questions-checkbox:checked + .questions-item .questions-item-titulo::after {
+    transform: rotate(180deg);
 }
 
 .questions-item-descricao {

@@ -1,0 +1,50 @@
+.formulario {
+    background-color: var(--azul-suave);
+    padding: 5rem 0 4rem 0;
+    text-align: center;
+}
+
+.formulario-descricao {
+    color: var(--branco);
+    font-size: 13px;
+    letter-spacing: .3rem;
+    text-transform: uppercase;
+}
+
+.formulario-titulo {
+    color: var(--branco);
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 2rem;
+    margin: 1rem 2rem 2rem 2rem;
+}
+
+.formulario-lista {
+    display: flex;
+    flex-direction: column;
+    margin: 0 2rem;
+}
+
+.formulario-email {
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    padding: 1rem;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(94, 92, 92, 0.116);
+}
+
+.formulario-email::placeholder {
+    color: var(--cinza-suave);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+}
+
+.formulario-submit {
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--vermelho-suave);
+    color: var(--branco);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+}

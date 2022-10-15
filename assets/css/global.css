@@ -3,6 +3,7 @@
 @import url(section-features.css);
 @import url(section-download.css);
 @import url(section-questions.css);
+@import url(section-formulario.css);
 
 :root {
     --branco: #ffffff;
