@@ -43,6 +43,7 @@
     background-color: var(--vermelho-suave);
     border: none;
     border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(94, 92, 92, 0.116);
     color: var(--branco);
     font-family: var(--fonte-principal);
     font-size: 16px;
