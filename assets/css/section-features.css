@@ -1,24 +1,31 @@
 .features {
-    margin-bottom: 2rem;
-    margin-top: 10rem;
+    margin-top: 7rem;
     text-align: center;
 }
 
-.features-titulo {
+.features-titulo, .stage-titulo {
     font-size: 25px;
     font-weight: 500;
     margin-bottom: 1.0rem;
 }
 
-.features-descricao {
+.features-descricao, .stage-descricao {
+    align-self: center;
     color: var(--azul-acinzentado);
     line-height: 1.7rem;
-    margin: 0 1.5rem 3rem 1.5rem;
+    margin: 0 auto;
+    max-width: 650px;
+    width: 88%;
+}
+
+.features-lista {
+    margin: 3rem auto;
+    max-width: 400px;
+    width: 85%;
 }
 
 .features-lista:nth-child(1) {
     border-top: 1.5px solid var(--cinza-suave);
-    margin: 0 2rem;
 }
 
 .features-item {
@@ -50,13 +57,85 @@
 }
 
 [lj-type="stage"] {
-    height: 170vw;
-    margin: auto;
-    width: 100%;  
+    height: 80vh;
+    margin: auto; 
+    max-width: 600px; 
 }
 
-.features-imagem {
+.stage-imagem {
     margin-bottom: 3.5rem;
-    margin-top: 4.5rem;
-    width: 83vw;
+    margin-top: 1rem;
+    width: 90%;
+}
+
+.stage-link {
+    display: none;
+}
+
+@media screen and (min-width: 1250px) {
+    .features-titulo {
+        font-size: 30px;
+    }
+
+    .features-descricao {
+        width: 33vw;
+    }
+
+    .features-lista {
+        border-bottom: 1.5px solid var(--cinza-suave);
+        display: flex;
+        justify-content: center;
+        max-width: 50%;
+    }
+
+    .features-lista:nth-child(1) {
+        border-top: none;
+    }
+
+    .features-item {
+        border: none;
+        margin: 0 2rem;
+    } 
+
+    [lj-type="stage"] {
+        height: 80vh;
+        margin: auto; 
+        max-width: 80%; 
+    }
+
+    .stage-container {
+        align-items: center;
+        display: flex;
+    }
+
+    .stage-imagem {
+        margin: 1rem 9rem 0 0;
+        width: 600px;
+    }
+
+    .stage-div {
+        text-align: start;
+    }
+
+    .stage-titulo {
+        font-size: 30px;
+    }
+
+    .stage-descricao {
+        width: 100%;
+    }
+
+    .stage-link {
+        background-color: var(--azul-suave);
+        border-radius: 5px;
+        box-shadow: 0px 4px 4px rgba(94, 92, 92, 0.116);
+        color: var(--branco);
+        display: inline-block;
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 2rem;
+        padding: 1rem 1.5rem;
+        text-align: start;
+        text-decoration: none;
+    }   
 }

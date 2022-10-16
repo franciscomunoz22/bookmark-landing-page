@@ -46,7 +46,7 @@
     background-color: var(--quase-branco);
 }
 
-@media screen and (min-width: 1150px) {
+@media screen and (min-width: 1250px) {
     .destaque-container {
         flex-direction: row-reverse;
         justify-content: space-evenly;
