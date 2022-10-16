@@ -1,4 +1,7 @@
 .download {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
     text-align: center;
 }
 
@@ -11,14 +14,15 @@
 .download-descricao {
     color: var(--azul-acinzentado);
     line-height: 1.7rem;
-    margin: 0 1.5rem 3rem 1.5rem;
+    margin: 0 1.5rem 2rem 1.5rem;
+    max-width: 500px;
 }
 
 .download-card {
     border-radius: 15px;
     box-shadow: 0px 0px 20px 2px rgba(94, 92, 92, 0.116);
-    margin: 3rem;
-    padding: 3rem 0 .1rem 0;
+    margin: 1.5rem;
+    padding: 1.5rem 0 .1rem 0;
 }
 
 .card-titulo {
@@ -49,4 +53,32 @@
     margin: 1.5rem;
     padding: 1rem;
     text-decoration: none;
+}
+
+@media screen and (min-width: 1250px) {
+    .download {
+        grid-template-columns: calc(3, 1fr);
+    }
+
+    .download-titulo, .download-descricao {
+        grid-column: Span 3;
+    }
+
+    .download-card {
+        position: relative;
+    }
+
+    .download-card-um {
+        margin-bottom: 9.5rem;
+    }
+
+    .download-card-dois {
+        margin-bottom: 7rem;
+        margin-top: 4rem;
+    }
+    
+    .download-card-tres {
+        margin-bottom: 4.5rem;
+        margin-top: 6.5rem;
+    }
 }
