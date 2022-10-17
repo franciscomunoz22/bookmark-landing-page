@@ -1,5 +1,8 @@
 .questions {
-   margin: 8rem 0rem 8rem 0rem;
+   display: flex;
+   flex-direction: column;
+   margin: 8rem auto;
+   max-width: 500px;
 }
 
 .questions-titulo {
@@ -56,15 +59,26 @@
 }
 
 .questions-link {
+    align-self: center;
     background-color: var(--azul-suave);
     border-radius: 5px;
     box-shadow: 0px 4px 4px rgba(94, 92, 92, 0.116);
     color: var(--branco);
-    display: block;
     font-size: 14px;
     font-weight: 500;
-    margin: 3rem 8rem;
+    margin: 2rem;
     padding: 1rem;
     text-align: center;
     text-decoration: none;
+    width: 80px;
+}
+
+@media screen and (min-width: 1250px) {
+    .questions {
+        margin-top: 3rem;
+    }
+
+    .questions-item-titulo:hover {
+        color: var(--vermelho-suave);
+    }
 }

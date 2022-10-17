@@ -133,5 +133,6 @@
         color: var(--vermelho-suave);
         background-color: transparent;
         border: 2px solid var(--vermelho-suave);
+        padding: .45rem 2.08rem;
     }
 }

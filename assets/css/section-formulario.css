@@ -16,10 +16,12 @@
     font-size: 25px;
     font-weight: 400;
     line-height: 2rem;
-    margin: 1rem 2rem 2rem 2rem;
+    margin: 2rem auto;
+    max-width: 350px;
 }
 
 .formulario-lista {
+    align-items: center;
     display: flex;
     flex-direction: column;
     margin: 0 2rem;
@@ -29,8 +31,10 @@
     border: none;
     border-radius: 5px;
     box-shadow: 0px 4px 4px rgba(94, 92, 92, 0.116);
+    margin: 0 auto;
     margin-bottom: 1rem;
-    padding: 1rem;  
+    max-width: 400px;
+    padding: 1rem 4.5rem;  
 }
 
 .formulario-email::placeholder {
@@ -47,5 +51,27 @@
     color: var(--branco);
     font-family: var(--fonte-principal);
     font-size: 16px;
-    padding: 1rem;    
+    padding: 1rem 7.2rem;  
+    margin: 0 auto; 
+    max-width: 400px;
+}
+
+@media screen and (min-width: 1100px) {
+    .formulario-lista {
+        display: block;
+    }
+
+    .formulario-submit {
+        font-size: 14px;
+        margin-left: 1rem;
+        padding: .95rem 1.5rem;
+    }
+
+    .formulario-submit:hover {
+        background-color: var(--branco);
+        border: 2px solid var(--vermelho-suave);
+        color: var(--vermelho-suave);
+        font-weight: 500;
+        padding: .83rem 1.3rem;
+    }
 }

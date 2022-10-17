@@ -58,6 +58,7 @@
 @media screen and (min-width: 1250px) {
     .download {
         grid-template-columns: calc(3, 1fr);
+        margin-top: -8rem;
     }
 
     .download-titulo, .download-descricao {
@@ -80,5 +81,12 @@
     .download-card-tres {
         margin-bottom: 4.5rem;
         margin-top: 6.5rem;
+    }
+
+    .card-link:hover {
+        color: var(--azul-suave);
+        background-color: transparent;
+        border: 2px solid var(--azul-suave);
+        padding: .87rem;
     }
 }

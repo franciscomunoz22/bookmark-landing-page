@@ -97,6 +97,10 @@
         margin: 0 2rem;
     } 
 
+    .features-item:hover {
+        color: var(--vermelho-suave);
+    }
+
     [lj-type="stage"] {
         height: 80vh;
         margin: auto; 

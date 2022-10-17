@@ -81,11 +81,13 @@
         background-color: transparent;
         border: 2px solid var(--azul-suave);
         color: var(--azul-suave);
+        padding: .9rem 1.37rem;
     }
 
     .destaque-link:nth-child(2):hover {
         background-color: transparent;
         border: 2px solid var(--azul-muito-escuro);
         color: var(--azul-muito-escuro);
+        padding: .9rem 1.38rem;
     }
 }   
